@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9fb;
+    color: #2c3e50;
+    padding-bottom: 4rem; /* Add padding to the bottom to accommodate the footer */
+}
+a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+a:hover {
+    color: #d6a4c4;
+}
+
+/* Header Styles */
+header {
+    background: #d6a4c4;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+/* Section Styles */
+section {
+    padding: 4rem 2rem;
+    margin-top: 4rem;
+}
+#home {
+    background: #f8d7e4;
+    color: #2c3e50;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+#home h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+#home p {
+    font-size: 1.2rem;
+}
+#about, #contact {
+    background: #fff;
+}
+#projects {
+    background: #fef9fb;
+}
+
+/* Project Styles */
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.project h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.project p {
+    font-size: 1rem;
+    color: #666;
+}
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #d6a4c4;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.project a:hover {
+    color: #c27ba0;
+}
+
+/* Footer Styles */
+footer {
+    background: #d6a4c4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form button {
+    background-color: #d6a4c4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    background-color: #c27ba0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+    section {
+        padding: 2rem 1rem;
+    }
+}
