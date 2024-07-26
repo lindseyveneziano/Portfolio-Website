@@ -2,6 +2,11 @@
 
 This is my portfolio website showcasing my skills and projects.
 
+
+## Live Site
+
+You can view my portfolio website live at [Portfolio Website](https://portfolio-website-pw1r.vercel.app/).
+
 ## Projects
 
 - [Median Image Filtering Using Order Statistics (Python)](https://github.com/lindseyveneziano/median-image-filtering)
